@@ -1,0 +1,14 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["john_widgets"]
+
+[project]
+name = "john_widgets"
+version = "0.1.0"
+description = "Premade PyQt6 widgets to use inside projects"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = ["pyqt6>=6.10.1"]
