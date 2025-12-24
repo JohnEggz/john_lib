@@ -1,0 +1,10 @@
+[project]
+name = "john_utils"
+version = "0.1.0"
+dependencies = [
+    "pandas>=2.3.3",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
